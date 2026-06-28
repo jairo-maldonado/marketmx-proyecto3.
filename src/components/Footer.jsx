@@ -1,17 +1,24 @@
 import React from 'react';
 
-function Footer() {
+const Footer = () => {
   return (
-    <footer className="bg-dark text-white py-4 mt-auto">
-      <div className="container text-center">
-        <h5 className="text-primary fw-bold">MarketMX</h5>
-        <p className="mb-1">Agencia de Marketing Digital</p>
-        <p className="small text-muted mb-0">Ubicación: Renca, Santiago, Chile</p>
-        <hr className="bg-light opacity-25 my-3" />
-        <p className="small mb-0">&copy; 2026 MarketMX. Todos los derechos reservados.</p>
+    <footer className="bg-dark text-white text-center py-4 mt-5">
+      <div className="container">
+        <h5 className="mb-2 text-primary fw-bold">MarketMX</h5>
+        <p className="mb-3">Agencia de Marketing Digital</p>
+        
+        <div className="mb-3 text-light">
+          <p className="mb-1">📍 Ubicación: Renca, Santiago</p>
+        </div>
+
+        <hr className="border-secondary" />
+        
+        <p className="mb-0 small text-secondary">
+          © 2026 MarketMX. Todos los derechos reservados.
+        </p>
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;
