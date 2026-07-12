@@ -1,39 +1,17 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Navbar() {
+const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
       <div className="container">
-        <a className="navbar-brand text-primary fw-bold" href="#">MarketMX</a>
-        
-        <button 
-          className="navbar-toggler" 
-          type="button" 
-          data-bs-toggle="collapse" 
-          data-bs-target="#navbarNav"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
-              <a className="nav-link active" href="#">Inicio</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#servicios">Servicios</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#casos">Casos de Éxito</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#contacto">Contacto</a>
-            </li>
-          </ul>
+        <Link className="navbar-brand fw-bold text-primary" to="/">MarketMX</Link>
+        <div className="navbar-nav ms-auto flex-row gap-3">
+          <Link className="nav-link" to="/">Ver Solicitudes</Link>
+          <Link className="nav-link btn btn-primary text-white px-3" to="/agregar">Nueva Solicitud</Link>
         </div>
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;

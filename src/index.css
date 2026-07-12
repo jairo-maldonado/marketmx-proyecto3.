@@ -1,0 +1,14 @@
+body {
+  background-color: #212529 !important; /* Fondo oscuro */
+  color: #f8f9fa !important; /* Texto claro por defecto */
+}
+
+/* Opcional: Para que los enlaces no se vean tan azules y brillantes */
+a {
+  color: #0dcaf0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
