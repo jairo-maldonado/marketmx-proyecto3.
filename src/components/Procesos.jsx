@@ -6,10 +6,10 @@ function Procesos() {
       <div className="container">
         <h2 className="text-center text-primary mb-5 fw-bold">Nuestro Proceso de Trabajo</h2>
         
-        {/* Contenedor principal del Acordeón de Bootstrap */}
+       
         <div className="accordion shadow-sm" id="accordionProcesos">
           
-          {/* Paso 1 */}
+  
           <div className="accordion-item border-0 border-bottom">
             <h2 className="accordion-header" id="headingOne">
               <button className="accordion-button fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -23,7 +23,6 @@ function Procesos() {
             </div>
           </div>
 
-          {/* Paso 2 */}
           <div className="accordion-item border-0 border-bottom">
             <h2 className="accordion-header" id="headingTwo">
               <button className="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -37,7 +36,6 @@ function Procesos() {
             </div>
           </div>
 
-          {/* Paso 3 */}
           <div className="accordion-item border-0">
             <h2 className="accordion-header" id="headingThree">
               <button className="accordion-button collapsed fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
