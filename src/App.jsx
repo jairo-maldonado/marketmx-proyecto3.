@@ -25,8 +25,6 @@ function App() {
             <Contacto />
           </>
         } />
-        
-        {/* Tus nuevas rutas */}
         <Route path="/pedidos" element={<VerPedidos />} />
         <Route path="/agregar" element={<AgregarPedido />} />
         <Route path="/editar/:id" element={<EditarPedido />} />
