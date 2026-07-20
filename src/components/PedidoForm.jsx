@@ -53,7 +53,7 @@ const PedidoForm = ({ pedidoId }) => {
         await crearRegistro(payloadFinal);
         alert("Solicitud creada con éxito");
       }
-      navigate('/');
+      navigate('/pedidos');
     } catch (error) {
       console.error(error);
     }
